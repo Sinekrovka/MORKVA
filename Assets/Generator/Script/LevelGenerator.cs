@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
@@ -17,8 +16,15 @@ public class LevelGenerator : MonoBehaviour
     private NavMeshSurface _meshSurface;
     private int plotX;
     private int plotY;
-    
+
+    public static LevelGenerator Instance;
+
     private void Awake()
+    {
+        Instance = this;
+    }
+
+    public void GenerateLevel()
     {
         int levelID;
         if (PlayerPrefs.HasKey("Level"))
@@ -39,6 +45,23 @@ public class LevelGenerator : MonoBehaviour
         EnviromentGenerate();
         WriteLevel();
         CreateNavMesh();
+    }
+
+    public void Rebuild(bool win)
+    {
+        if (win)
+        {
+            
+        }
+        else
+        {
+            
+        }
+    }
+
+    public void ClearLevel()
+    {
+        
     }
 
     private void CreatePlayer(int posX, int posY)
@@ -199,4 +222,6 @@ public class LevelGenerator : MonoBehaviour
         Instantiate(_levelPalete.GetPaleteOnName(name).prefabGeneration, new Vector3(posX, 0, posY),
             Quaternion.Euler(rotation), levelContainer.transform);
     }
+    
+    public Transform GetLevelContainer  => levelContainer.transform;
 }

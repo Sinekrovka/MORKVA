@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33106615424291490}
   - component: {fileID: 23842910740286896}
   - component: {fileID: 1035946477063065663}
+  - component: {fileID: 3596564576525688543}
   m_Layer: 0
   m_Name: SM_PolygonPrototype_Buildings_DoorFrame_01P
   m_TagString: Untagged
@@ -98,6 +99,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7695895, y: 2.253556, z: 1.0240649}
   m_Center: {x: 0.6310361, y: 1.126778, z: 0.19204837}
+--- !u!114 &3596564576525688543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755429121576396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b0219743186cc479cdc160fd55d9e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6966639844340935386
 PrefabInstance:
   m_ObjectHideFlags: 0
