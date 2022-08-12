@@ -238,6 +238,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1283017171755564, guid: f10c394033f254647873f3d28a75a062, type: 3}
   m_PrefabInstance: {fileID: 97962057755070289}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &-1525945220522373054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96978150763163005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da900f17151bda44b40e17581d1e081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &988703696
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -247,12 +259,12 @@ NavMeshAgent:
   m_GameObject: {fileID: 96978150763163005}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 1
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
