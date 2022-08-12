@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f3f561b81c6c4691efa17305b919f, type: 3}
+  m_Name: PaleteGeneration
+  m_EditorClassIdentifier: 
+  palete:
+  - Name: Floor
+    prefabGeneration: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+    numberOnPalete: 0
+  - Name: Wall
+    prefabGeneration: {fileID: 1811686274572396, guid: b5de5c0b247590242b72375541d59dd1, type: 3}
+    numberOnPalete: 1
+  - Name: Enter
+    prefabGeneration: {fileID: 1070387196533242, guid: 806879ffa5f004242a9be76b02464e2c, type: 3}
+    numberOnPalete: 2
+  - Name: Exit
+    prefabGeneration: {fileID: 1755429121576396, guid: 4a0ab548b1b39cf4b8b48726d5f4fbfe, type: 3}
+    numberOnPalete: 3
+  - Name: Enemy
+    prefabGeneration: {fileID: 96978150763163005, guid: 5687dd47429339c44a521094b31444f7, type: 3}
+    numberOnPalete: 4
+  - Name: Player
+    prefabGeneration: {fileID: 2169858043328588668, guid: ad86406b7910f1442ba6c0739d3238a3, type: 3}
+    numberOnPalete: 5

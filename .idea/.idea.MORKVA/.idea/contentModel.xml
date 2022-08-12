@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\sinek\Projects\MORKVA" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Epic Toon FX" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ETFXButtonScript.cs" t="Include" />
+              <e p="ETFXFireProjectile.cs" t="Include" />
+              <e p="ETFXLoopScript.cs" t="Include" />
+              <e p="ETFXMouseOrbit.cs" t="Include" />
+              <e p="ETFXProjectileScript.cs" t="Include" />
+              <e p="ETFXSceneManager.cs" t="Include" />
+              <e p="ETFXTarget.cs" t="Include" />
+              <e p="VFX Library" t="Include">
+                <e p="ParticleEffectsLibrary.cs" t="Include" />
+                <e p="PEButtonScript.cs" t="Include" />
+                <e p="UICanvasManager.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Prefabs" t="Include">
+            <e p="Combat" t="Include">
+              <e p="Combat FX.txt" t="Include" />
+            </e>
+            <e p="Environment" t="Include">
+              <e p="Environment FX.txt" t="Include" />
+            </e>
+            <e p="Interactive" t="Include">
+              <e p="Interactive FX.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ETFXLightFade.cs" t="Include" />
+            <e p="ETFXPitchRandomizer.cs" t="Include" />
+            <e p="ETFXRotation.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Generator" t="Include">
+          <e p="Script" t="Include">
+            <e p="LevelGenerator.cs" t="Include" />
+            <e p="LevelItemData.cs" t="Include" />
+            <e p="WallGenerator.cs" t="Include" />
+            <e p="WayCreator.cs" t="Include" />
+          </e>
+        </e>
+        <e p="LevelsData" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="LevelData.cs" t="Include" />
+          </e>
+        </e>
+        <e p="NavMeshComponents" t="Include">
+          <e p="Editor" t="Include">
+            <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+            <e p="NavMeshLinkEditor.cs" t="Include" />
+            <e p="NavMeshModifierEditor.cs" t="Include" />
+            <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+            <e p="NavMeshSurfaceEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="NavMeshLink.cs" t="Include" />
+            <e p="NavMeshModifier.cs" t="Include" />
+            <e p="NavMeshModifierVolume.cs" t="Include" />
+            <e p="NavMeshSurface.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SimpleFX" t="Include">
+          <e p="Materials" t="Include">
+            <e p="UnlitVertexColour_Alpha.shader" t="Include" />
+          </e>
+        </e>
+        <e p="StarterAssets" t="Include">
+          <e p="Editor" t="Include">
+            <e p="PackageChecker" t="Include">
+              <e p="PackageCheckerSettings.json" t="Include" />
+            </e>
+            <e p="StarterAssetsDeployMenu.cs" t="Include" />
+            <e p="ThirdPersonStarterAssetsDeployMenu.cs" t="Include" />
+          </e>
+          <e p="Environment" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="Built-in_RP" t="Include">
+                <e p="ArmatureShader.shader" t="Include" />
+                <e p="Triplanar.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="InputSystem" t="Include">
+            <e p="StarterAssetsInputs.cs" t="Include" />
+          </e>
+          <e p="license.txt" t="Include" />
+          <e p="Mobile" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CanvasInputs" t="Include">
+                <e p="UICanvasControllerInput.cs" t="Include" />
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="MobileDisableAutoSwitchControls.cs" t="Include" />
+              </e>
+              <e p="VirtualInputs" t="Include">
+                <e p="UIVirtualButton.cs" t="Include" />
+                <e p="UIVirtualJoystick.cs" t="Include" />
+                <e p="UIVirtualTouchZone.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ThirdPersonController" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="BasicRigidBodyPush.cs" t="Include" />
+              <e p="ThirdPersonController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TutorialInfo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ReadmeEditor.cs" t="Include" />
+              </e>
+              <e p="Readme.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="MORKVA.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="E:\Users\ZLO\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="E:\Users\ZLO\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_MORKVA.695881989.00" t="ExcludeRecursive" />
+  </component>
+</project>
