@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Kuhpik;
 using UnityEngine;
 
 public class AttackController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private PatrolAgent _patrolAgent;
+    private void Awake()
     {
-        
+        _patrolAgent = GetComponentInParent<PatrolAgent>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("Player"))
+        {
+            Attack();
+        }
+    }
+
+    private void Attack()
+    {
+        /*Здесь можно было бы прописать анимацию стрельбы и атаку*/
+        Bootstrap.ChangeGameState(EGamestate.Lose);
     }
 }
