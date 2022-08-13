@@ -43,30 +43,38 @@ public class LevelGenerator : MonoBehaviour
         
         GenerateLevelPlot();
         EnviromentGenerate();
-        WriteLevel();
         CreateNavMesh();
     }
 
     public void Rebuild(bool win)
     {
+        ClearLevel();
         if (win)
         {
-            
+            int nextLevel = PlayerPrefs.GetInt("Level")+1;
+            if (nextLevel > _levelsData.Levels.Count)
+            {
+                nextLevel = 0;
+            }
+            PlayerPrefs.SetInt("Level",nextLevel);
+            GenerateLevel();
         }
         else
         {
-            
+            GenerateLevel();
         }
     }
 
     public void ClearLevel()
     {
-        
+        Destroy(levelContainer);
     }
+
+    private GameObject _player;
 
     private void CreatePlayer(int posX, int posY)
     {
-        Instantiate(_levelPalete.GetPaleteOnName("Player").prefabGeneration, new Vector3(posX*5+1f, 1, posY*5+1f),
+         _player = Instantiate(_levelPalete.GetPaleteOnName("Player").prefabGeneration, new Vector3(posX*5+1f, 1, posY*5+1f),
             quaternion.identity);
     }
 
@@ -82,10 +90,12 @@ public class LevelGenerator : MonoBehaviour
         {
             Vector3 pos = levelContainer.transform.GetChild(0).
                 GetChild(Random.Range(1, plotX-1)).GetChild(Random.Range(1,plotY-1)).position;
-            pos.x += 0.5f;
-            pos.z += 0.5f;
-            Instantiate(data.prefabGeneration, pos, quaternion.identity);
+            pos.x += 0.7f;
+            pos.z += 0.7f;
+            GameObject agent = Instantiate(data.prefabGeneration, pos, quaternion.identity);
+            agent.transform.SetParent(levelContainer.transform);
         }
+        _player.transform.SetParent(levelContainer.transform);
     }
 
     private void EnviromentGenerate()

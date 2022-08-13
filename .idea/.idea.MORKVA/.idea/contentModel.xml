@@ -315,6 +315,9 @@
             <e p="GameSystem" t="Include">
               <e p="ButtonsStart.cs" t="Include" />
             </e>
+            <e p="LoseSystem" t="Include">
+              <e p="LoseButtonsController.cs" t="Include" />
+            </e>
             <e p="WinSystem" t="Include">
               <e p="WinButtonsController.cs" t="Include" />
             </e>

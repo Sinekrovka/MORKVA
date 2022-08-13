@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Kuhpik;
+using StarterAssets;
 using UnityEngine;
 
 public class CameraFollowController : GameSystem, IUpdating, IIniting
@@ -10,7 +11,12 @@ public class CameraFollowController : GameSystem, IUpdating, IIniting
     public void OnInit()
     {
         _cam = FindObjectOfType<Camera>().transform;
-        _player = GameObject.FindWithTag("Player").transform;
+        _player = FindObjectOfType<ThirdPersonController>().transform;
+    }
+
+    public void SetPlayer(Transform player)
+    {
+        _player = player;
     }
 
     public void OnUpdate()

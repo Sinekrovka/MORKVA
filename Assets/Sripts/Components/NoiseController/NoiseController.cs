@@ -24,6 +24,7 @@ public class NoiseController : GameSystem, IIniting,IUpdating
     private float currentNoiseLevel;
     public void OnInit()
     {
+        Time.timeScale = 1f;
         _thirdPerson = FindObjectOfType<ThirdPersonController>();
         checkMovement = false;
         currentNoiseLevel = 0;
@@ -32,26 +33,32 @@ public class NoiseController : GameSystem, IIniting,IUpdating
     public void OnUpdate()
     {
         _speedPlayer = _thirdPerson.GetCurrentSpeed;
-        if (_speedPlayer > 0 && !checkMovement)
+        if (_speedPlayer > 0)
         {
-            checkMovement = true;
-            StopAllCoroutines();
-            StartCoroutine(AddNoise(addNoiseForMoving, timeWaitMoving));
+            if (!checkMovement)
+            {
+                checkMovement = true;
+                StopAllCoroutines();
+                StartCoroutine(AddNoise(addNoiseForMoving, timeWaitMoving));
+            }
         }
         else
         {
-            checkMovement = false;
-            StopAllCoroutines();
-            StartCoroutine(AddNoise(addNoiseForStop, timeWaitOnStop));
+            if (checkMovement)
+            {
+                checkMovement = false;
+                StopAllCoroutines();
+                StartCoroutine(AddNoise(addNoiseForStop, timeWaitOnStop));
+            }
         }
     }
 
     private IEnumerator AddNoise(int countPoints, float time)
     {
         yield return new WaitForSeconds(time);
-        currentNoiseLevel += 1f*countPoints / maxNoiseLevel;
+        currentNoiseLevel += 1f*countPoints / maxNoiseLevel*1f;
         noiselevelImage.fillAmount = currentNoiseLevel;
-        if (currentNoiseLevel >= maxNoiseLevel)
+        if (currentNoiseLevel >= 1)
         {
             _maxNoise?.Invoke(_thirdPerson.transform.position, true);
             StopAllCoroutines();

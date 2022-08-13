@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using Kuhpik;
 using UnityEngine;
 
-public class WinButtonsController : GameSystem, IIniting
+public class LoseButtonsController : GameSystem, IIniting
 {
     public void OnInit()
     {
+        //Time.timeScale = 0;
     }
     public void NextLevel()
     {

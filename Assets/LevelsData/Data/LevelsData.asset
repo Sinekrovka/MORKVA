@@ -18,3 +18,18 @@ MonoBehaviour:
     speedPlayer: 4
     speedEnemies: 4
     levelSize: {x: 10, y: 10}
+  - countEnemies: 3
+    countExits: 1
+    speedPlayer: 4
+    speedEnemies: 4
+    levelSize: {x: 10, y: 10}
+  - countEnemies: 5
+    countExits: 1
+    speedPlayer: 4
+    speedEnemies: 4
+    levelSize: {x: 12, y: 12}
+  - countEnemies: 5
+    countExits: 1
+    speedPlayer: 4
+    speedEnemies: 4
+    levelSize: {x: 15, y: 15}
