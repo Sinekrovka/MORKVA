@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="599465aa-5652-4728-bd82-48660eec153d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MORKVA/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MORKVA/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MORKVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MORKVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Generator/Script/LevelGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Generator/Script/LevelGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelsData/Data/LevelsData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelsData/Data/LevelsData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cop_01 Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sripts/Components/AI/AttackController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/Components/AI/AttackController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sripts/Components/NoiseController/CameraFollowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/Components/NoiseController/CameraFollowController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sripts/Components/NoiseController/NoiseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/Components/NoiseController/NoiseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sripts/Systems/WinSystem/WinButtonsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sripts/Systems/WinSystem/WinButtonsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack Variant.prefab.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="599465aa-5652-4728-bd82-48660eec153d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Generator/Script/LevelGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+            <state relative-caret-position="187">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <marker date="1660418403503" expanded="false" signature="6:134" ph="..." />
                 <marker date="1660418403503" expanded="true" signature="179:6675" ph="{...}" />
@@ -328,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="714" />
     <option name="y" value="29" />
     <option name="width" value="1049" />
@@ -497,12 +484,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660114987630</updated>
-      <workItem from="1660114998367" duration="69380000" />
+      <workItem from="1660114998367" duration="69477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69380000" />
+    <option name="totallyTimeSpent" value="69477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,8 +501,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -1073,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Generator/Script/LevelGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="97" column="62" lean-forward="true" selection-start-line="97" selection-start-column="62" selection-end-line="97" selection-end-column="62" />
+        <state relative-caret-position="187">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
             <marker date="1660418403503" expanded="false" signature="6:134" ph="..." />
             <marker date="1660418403503" expanded="true" signature="179:6675" ph="{...}" />
